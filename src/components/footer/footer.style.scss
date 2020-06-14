@@ -1,0 +1,17 @@
+.footer {
+  margin-top: 0;
+  margin: 0;
+  background: #000;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &-text {
+    font-size: 1rem;
+    margin: 5px auto;
+    color: #fff;
+    .sub {
+      color: #c99c00;
+    }
+  }
+}

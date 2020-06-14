@@ -1,0 +1,23 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 60px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 5;
+  .logo {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+  }
+  .navbar {
+    display: flex;
+    .nav-link {
+      margin-right: 1rem;
+      color: #000;
+    }
+  }
+}
