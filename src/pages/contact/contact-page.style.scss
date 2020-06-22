@@ -1,9 +1,10 @@
 .contact-page {
   margin: 0;
   padding: 0;
-  height: 100vh;
+  height: 100%;
   width: 100%;
   display: flex;
+
   .content {
     width: 50vw;
     height: 100vh;
@@ -12,12 +13,13 @@
     align-items: center;
     justify-content: center;
   }
+
   .image-backgound {
-    background: url("https://source.unsplash.com/4mK2KVuYrDs") no-repeat center
-      center/cover;
+    background: url("https://source.unsplash.com/4mK2KVuYrDs") no-repeat center center/cover;
     width: 50vw;
     height: 100vh;
     position: relative;
+
     &::before {
       content: "";
       position: absolute;
@@ -28,4 +30,21 @@
       background: rgba($color: #000000, $alpha: 0.3);
     }
   }
+
+  @media (max-width:500px) {
+    width: 80%;
+    margin: auto;
+    height: 100%;
+    padding-bottom: 20px;
+
+    .content {
+      width: 100%;
+      margin-top: 50px;
+    }
+
+    .image-backgound {
+      display: none;
+    }
+  }
+
 }

@@ -1,13 +1,13 @@
 .showcase {
   width: 100%;
   height: 100vh;
-  background: url("https://source.unsplash.com/AhfrA5VQNpM") no-repeat center
-    center/cover;
+  background: url("https://source.unsplash.com/AhfrA5VQNpM") no-repeat center center/cover;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
   justify-content: center;
   position: relative;
+
   &::before {
     content: "";
     position: absolute;
@@ -17,9 +17,11 @@
     height: 100%;
     background: rgba($color: #000000, $alpha: 0.2);
   }
+
   & * {
     z-index: 4;
   }
+
   .title {
     font-size: 8rem;
     text-transform: uppercase;
@@ -27,17 +29,24 @@
     margin-right: 3rem;
     margin-bottom: 1rem;
     color: #000;
+
     .white {
       color: #fff;
     }
   }
+
   .link {
     font-weight: bold;
     font-size: 4rem;
     margin-top: 0;
     margin-right: 16rem;
+
     a {
       color: #fff;
     }
+  }
+
+  @media (max-width:500px) {
+    display: none;
   }
 }

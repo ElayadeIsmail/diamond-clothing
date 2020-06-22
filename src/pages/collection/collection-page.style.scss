@@ -17,4 +17,15 @@
       margin-bottom: 30px;
     }
   }
+
+  @media screen and (max-width:500px) {
+    .items {
+
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 10px;
+    }
+
+  }
+
 }

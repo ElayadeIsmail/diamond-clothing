@@ -3,4 +3,10 @@
   width: 100%;
   display: flex;
   flex-wrap: wrap;
+
+  @media (max-width:500px) {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+  }
 }

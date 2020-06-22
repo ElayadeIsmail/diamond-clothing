@@ -4,8 +4,9 @@ body {
   font-family: "Open Sans Condensed", sans-serif;
   margin: 0;
   padding: 0;
-  background: linear-gradient(to right, #e2b606, #a98507);
+  background: #e2b606;
 }
+
 i {
   font-family: "Font Awesome\ 5 Free" !important;
 }

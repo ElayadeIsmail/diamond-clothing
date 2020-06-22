@@ -2,6 +2,7 @@
   width: 380px;
   display: flex;
   flex-direction: column;
+
   .text-area {
     background: none;
     background-color: white;
@@ -19,5 +20,10 @@
     &:focus {
       outline: none;
     }
+  }
+
+  @media (max-width:500px) {
+    width: 95%;
+    margin: auto;
   }
 }

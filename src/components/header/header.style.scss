@@ -8,16 +8,26 @@
   left: 0;
   width: 100%;
   z-index: 5;
+
   .logo {
     width: 25px;
     height: 25px;
     cursor: pointer;
   }
+
   .navbar {
     display: flex;
+
     .nav-link {
       margin-right: 1rem;
       color: #000;
     }
+  }
+
+  @media (max-width:500px) {
+
+    padding: 10px;
+
+
   }
 }
